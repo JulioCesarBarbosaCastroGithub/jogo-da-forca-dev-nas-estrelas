@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Starjedi;
+    src: url("../assets/Starjedi.ttf");
+}
+
+h1 {
+    color: #e6b93c;
+    font-family: Starjedi;
+}
+
+body {
+    background: #0e0e13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.darth-vader {
+    width: 300px;
+}
+
+button {
+    background: #4894c3;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
